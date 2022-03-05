@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Ride 2</string>
+    <string name="fecha">Date</string>
+    <string name="nota">Note:</string>
+    <string name="tipo">Tipe</string>
+    <string name="guardar">Save</string>
+
+    <string name="alertas">Alerts</string>
+    <string name="actualisarKm">Update KM</string>
+
+    <string-array name="marcas">
+
+        <item>Alfa Romeo</item>
+        <item>Asia</item>
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Chery</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Citroen</item>
+        <item>Daewo</item>
+        <item>Daihatsu</item>
+        <item>Dodge</item>
+        <item>Ferrari</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Hummer</item>
+        <item>Hyunday</item>
+        <item>Izuzu</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>Kia</item>
+        <item>KTM</item>
+        <item>Lada</item>
+        <item>Land Rover</item>
+        <item>Mazda</item>
+        <item>Mercedes Benz</item>
+        <item>Mini</item>
+        <item>Mitsubishi</item>
+        <item>Motomel</item>
+        <item>Nissan</item>
+        <item>Peugeot</item>
+        <item>Porsche</item>
+        <item>Renault</item>
+        <item>Rover</item>
+        <item>Rolls Royce</item>
+        <item>Seat</item>
+        <item>Smart</item>
+        <item>Ssangyong</item>
+        <item>Subaru</item>
+        <item>Suzuki</item>
+        <item>Tata</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+        <item>yamaha</item>
+        <item>Zanella</item>
+    </string-array>
+
+    <integer-array name="marcasIconos">
+
+        <item>@mipmap/alfaromeo</item>
+        <item>@mipmap/asia</item>
+        <item>@mipmap/audi</item>
+        <item>@mipmap/bentley</item>
+        <item>@mipmap/bmw</item>
+        <item>@mipmap/chery</item>
+        <item>@mipmap/chevrolet</item>
+        <item>@mipmap/chrysler</item>
+        <item>@mipmap/citroen</item>
+        <item>@mipmap/daewo</item>
+        <item>@mipmap/daihatsu</item>
+        <item>@mipmap/dodge</item>
+        <item>@mipmap/ferrari</item>
+        <item>@mipmap/fiat</item>
+        <item>@mipmap/ford</item>
+        <item>@mipmap/honda</item>
+        <item>@mipmap/hummer</item>
+        <item>@mipmap/hyundai</item>
+        <item>@mipmap/isuzu</item>
+        <item>@mipmap/jaguar</item>
+        <item>@mipmap/jeep</item>
+        <item>@mipmap/kia</item>
+        <item>@mipmap/ktm</item>
+        <item>@mipmap/lada</item>
+        <item>@mipmap/landrover</item>
+        <item>@mipmap/mazda</item>
+        <item>@mipmap/mercedes</item>
+        <item>@mipmap/mini</item>
+        <item>@mipmap/mitsubishi</item>
+        <item>@mipmap/motomel</item>
+        <item>@mipmap/nissan</item>
+        <item>@mipmap/peugeot</item>
+        <item>@mipmap/porsche</item>
+        <item>@mipmap/renault</item>
+        <item>@mipmap/rover</item>
+        <item>@mipmap/rollsroyce</item>
+        <item>@mipmap/seat</item>
+        <item>@mipmap/smart</item>
+        <item>@mipmap/ssangyong</item>
+        <item>@mipmap/subaru</item>
+        <item>@mipmap/suzuki</item>
+        <item>@mipmap/tata</item>
+        <item>@mipmap/tesla</item>
+        <item>@mipmap/toyota</item>
+        <item>@mipmap/vw</item>
+        <item>@mipmap/volvo</item>
+        <item>@mipmap/yamaha</item>
+        <item>@mipmap/zanella</item>
+    </integer-array>
+
+    <string-array name="mantenimiento">
+
+        <item>Oil</item>
+        <item>Breaks</item>
+        <item>Heat , A. A.</item>
+        <item>Electricity</item>
+        <item>Batery</item>
+        <item>Spark Plugs</item>
+        <item>Bodywork</item>
+        <item>Locksmith</item>
+        <item>Paint</item>
+        <item>Mechanics</item>
+        <item>Cleaning</item>
+        <item>Tires</item>
+        <item>Ignition</item>
+        <item>Belts</item>
+        <item>Computer</item>
+        <item>Cooling</item>
+        <item>Service</item>
+        <item>Sound</item>
+        <item>Direction</item>
+        <item>Glases</item>
+    </string-array>
+
+    <integer-array name="mantenIconos">
+
+        <item>@drawable/aceite_de_motor</item>
+        <item>@drawable/advertencia_de_freno</item>
+        <item>@drawable/automatizacion_de_la_calefaccion</item>
+        <item>@drawable/automatizacion_de_luz</item>
+        <item>@drawable/bateria</item>
+        <item>@drawable/bujia</item>
+        <item>@drawable/coche_colisionado</item>
+        <item>@drawable/llave</item>
+        <item>@drawable/paint_sprayer</item>
+        <item>@drawable/piston</item>
+        <item>@drawable/rued_pinchada</item>
+        <item>@drawable/engine</item>
+        <item>@drawable/gears</item>
+        <item>@drawable/electronics</item>
+        <item>@drawable/radiator</item>
+        <item>@drawable/service</item>
+        <item>@drawable/sound</item>
+        <item>@drawable/steering_wheel</item>
+        <item>@drawable/washer_fluid</item>
+    </integer-array>
+
+    <string-array name="gastos">
+        <item>Tickets</item>
+        <item>Parking</item>
+        <item>Insurance</item>
+        <item>AA</item>
+        <item>License</item>
+        <item>Shopping</item>
+    </string-array>
+
+    <integer-array name="gastosIconos">
+        <item>@drawable/bill</item>
+        <item>@drawable/car_garage</item>
+        <item>@drawable/car_insurance</item>
+        <item>@drawable/tow</item>
+        <item>@drawable/licence_plate</item>
+        <item>@drawable/shopping</item>
+    </integer-array>
+
+
+    <string name="dentroDe">Within</string>
+    <string name="km">Miles</string>
+    <string name="listarPorMes">List By Month</string>
+    <string name="listarporkm">List By KM</string>
+    <string name="proximaalerta">Comin Alert</string>
+    <string name="gastomensual">Montly Expense</string>
+    <string name="dias">Days</string>
+    <string name="nohayalertas">There are no Alerts</string>
+    <string name="Nafta">Gas</string>
+    <string name="borrardata">Erase all data</string>
+    <string name="escribime">Email me</string>
+    <string name="calificame">Rate me</string>
+    <string name="compartime">Share me</string>
+    <string name="selectMake">Make</string>
+    <string name="patente">Licence or Nickname</string>
+    <string name="Newcar">New Car</string>
+    <string name="agregapatente">Add Licence o Nickname</string>
+    <string name="identificador" translatable="false">Identificador</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="backup" translatable="false">Backup</string>
+    <string name="vermas">Details</string>
+    <string name="edit">Edit</string>
+    <string name="title_activity_lista_de_autos">ListaDeAutos</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="modelo">Model</string>
+    <string name="año">Year</string>
+
+
+</resources>

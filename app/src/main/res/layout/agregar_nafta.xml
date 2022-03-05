@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:gravity="center_horizontal">
+
+    <ImageButton
+        android:id="@+id/btnGuardarNafta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rounded_shadow_azul"
+        android:elevation="4dp"
+        android:src="@android:drawable/ic_menu_save" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_shadow1"
+        android:gravity="top|center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:id="@+id/imgMantenimiento"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/gasolinera" />
+
+            <TextView
+
+                android:id="@+id/txtFechaNafta"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+
+                android:ems="10"
+                android:focusable="true"
+                android:gravity="center"
+                android:hint="@string/fecha"
+                android:textColorHint="@color/grisclarito"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                tools:ignore="TextFields,RtlHardcoded" />
+
+            <ImageButton
+                android:id="@+id/btnCambiarFechaNafta"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/rounded_shadow"
+                android:elevation="4dp"
+                android:src="@android:drawable/ic_menu_edit" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <NumberPicker
+                android:id="@+id/NumberPicker01Nafta"
+                android:layout_width="40dp"
+                android:layout_height="70dp" />
+
+            <NumberPicker
+                android:id="@+id/NumberPicker02Nafta"
+                android:layout_width="40dp"
+                android:layout_height="70dp" />
+
+
+            <NumberPicker
+                android:id="@+id/NumberPicker03Nafta"
+                android:layout_width="40dp"
+                android:layout_height="70dp" />
+
+
+            <NumberPicker
+                android:id="@+id/NumberPicker04Nafta"
+                android:layout_width="40dp"
+                android:layout_height="70dp" />
+
+            <NumberPicker
+                android:id="@+id/NumberPicker05Nafta"
+                android:layout_width="40dp"
+                android:layout_height="70dp" />
+
+            <NumberPicker
+                android:id="@+id/NumberPicker06Nafta"
+                android:layout_width="40dp"
+                android:layout_height="70dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtNafta"
+                android:layout_width="40dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="$"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtNaftaMonto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="0.00"
+                android:inputType="numberDecimal"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
