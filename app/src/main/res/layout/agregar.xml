@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rounded_shadow1"
+                android:gravity="top|center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/rounded_shadow1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:id="@+id/imgMantenimiento"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/banco" />
+
+                    <TextView
+                        android:id="@+id/txtEdtGasto"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+                    <Spinner
+
+                        android:id="@+id/spnAgregarMantenimiento"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:id="@+id/txtFecha"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/rounded_border3"
+                        android:ems="10"
+                        android:focusable="true"
+                        android:gravity="center|center_vertical"
+
+                        android:hint="@string/fecha"
+                        android:textColor="@color/design_default_color_background"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:ignore="TextFields,RtlHardcoded" />
+
+                    <ImageButton
+                        android:id="@+id/btnFechaMantenimiento"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_shadow"
+                        android:elevation="4dp"
+                        android:src="@android:drawable/ic_menu_edit" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtPesos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="$"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edtGasto"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="0.00"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/design_default_color_surface"
+                        android:textColorHint="@color/design_default_color_background" />
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edtNotaMantenimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="@string/nota"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/design_default_color_background"
+                    android:textColorHint="@color/design_default_color_background" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnGuardarMantenimiento"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="64dp"
+                android:background="@drawable/rounded_shadow_azul"
+                android:elevation="4dp"
+                android:src="@android:drawable/ic_menu_save" />
+
+            <ImageButton
+                android:id="@+id/ibtnBorrarGasto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/rounded_shadow_red"
+                android:src="@android:drawable/ic_menu_delete" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

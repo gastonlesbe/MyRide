@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Ride 2</string>
+    <string name="fecha">Fecha</string>
+    <string name="nota">Nota:</string>
+    <string name="tipo">Tipo</string>
+    <string name="guardar">Guardar</string>
+    <string name="patente">Patente o Apodo</string>
+    <string name="alertas">Alertas</string>
+    <string name="actualisarKm">Actualizar Km</string>
+    <string name="dentroDe">Dentro de</string>
+    <string name="listarPorMes">Listar por Mes</string>
+    <string name="listarporkm">Listar por KM</string>
+
+    <string-array name="mantenimiento">
+
+        <item>Aceite</item>
+        <item>Frenos</item>
+        <item>Calefaccion , A. A.</item>
+        <item>Electricidad</item>
+        <item>Bateria</item>
+        <item>Bujias</item>
+        <item>Chapa</item>
+        <item>Cerrajeria</item>
+        <item>Pintura</item>
+        <item>Mecanica</item>
+        <item>Lavado</item>
+        <item>Gomeria</item>
+        <item>Ensendido</item>
+        <item>Correas</item>
+        <item>Computadora</item>
+        <item>Refrigeracion</item>
+        <item>Service</item>
+        <item>Sonido</item>
+        <item>Direccion</item>
+        <item>Vidrios</item>
+
+    </string-array>
+    <string name="km">Km</string>
+
+    <string-array name="gastos">
+        <item>Multas</item>
+        <item>Estacionamiento</item>
+        <item>Seguro</item>
+        <item>Asistencia Mecanica</item>
+        <item>Patente</item>
+        <item>Compras</item>
+    </string-array>
+    <string name="proximaalerta">Proxima Alerta</string>
+    <string name="gastomensual">Gasto Mensual</string>
+    <string name="dias">Días</string>
+    <string name="nohayalertas">No hay Alertas</string>
+    <string name="Nafta">Nafta</string>
+    <string name="borrardata">Borrar Data</string>
+    <string name="escribime">Mandame un email</string>
+    <string name="calificame">Calificame</string>
+    <string name="compartime">Compartime</string>
+    <string name="selectMake">Marca</string>
+    <string name="Newcar">Nuevo Auto</string>
+    <string name="agregapatente">Agrega Patente o Apodo</string>
+    <string name="vermas">Detalles</string>
+    <string name="edit">Edit</string>
+
+
+</resources>
